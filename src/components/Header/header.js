@@ -1,6 +1,7 @@
 import React from "react";
 import "./header.css";
-import { FaWhatsapp, FaPhoneAlt } from "react-icons/fa";
+import { FaWhatsappSquare, FaPhoneAlt } from "react-icons/fa";
+
 import logo from "../../assets/logo-1.png";
 
 const Header = () => {
@@ -17,10 +18,10 @@ const Header = () => {
               rel="noopener noreferrer"
               className="header-link whatsapp"
             >
-              <FaWhatsapp /> Fale pelo WhatsApp
+              <FaWhatsappSquare /> Fale pelo WhatsApp
             </a>
 
-            <a href="tel:+551636620519" className="header-link">
+            <a href="tel:+551636620519" className="header-link phone">
               <FaPhoneAlt /> Fale conosco
             </a>
           </div>

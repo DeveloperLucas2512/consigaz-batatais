@@ -39,7 +39,7 @@
 }
 
 .btn.phone {
-  background-color: #ff6400;
+  background-color: rgb(16, 68, 238);
   color: white;
 }
 
@@ -55,20 +55,233 @@
   padding-top: 100px; /* compensação da altura do header */
 }
 
-/* ✅ MOBILE AJUSTES */
+/*inicio - section produtos*/
+
+.container-produtos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  margin: 40px auto;
+  max-width: 1200px;
+}
+
+.title-produtos h1 {
+  padding: 5px;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 2rem;
+  background-color: rgb(16, 68, 238);
+  margin-bottom: 10px;
+}
+
+.title-produtos p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 30px;
+  max-width: 600px;
+  font-weight: bold;
+}
+
+.produtos-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.produto-card {
+  background-color: #111;
+  color: #fff;
+  border-radius: 15px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 500px;
+  flex: 1;
+}
+
+.produto-info {
+  margin: auto 5px;
+  flex: 1 1;
+  text-align: left;
+}
+
+.produto-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.produto-info p {
+  font-size: 1rem;
+  color: #ddd;
+  margin-bottom: 15px;
+}
+
+.produto-img-gas {
+  border-radius: 15px;
+  width: 300px;
+  height: auto;
+  object-fit: contain;
+}
+
+.produto-img-agua {
+  border-radius: 15px;
+  width: 250px;
+  height: auto;
+  object-fit: contain;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.container-information {
+  background-color: #1d4a6f;
+  color: white;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+  border-radius: 12px;
+  margin: 40px 20px;
+}
+
+.info-item {
+  text-align: center;
+  flex: 1 1 200px;
+  max-width: 250px;
+}
+
+.info-icon {
+  font-size: 42px; /* 👈 Aumenta o tamanho */
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.info-item i {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.info-item h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.info-item p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.btn.comprar {
+  background-color: rgb(16, 68, 238);
+  color: white;
+}
+
+.btn.whatsapp {
+  background-color: #25d366;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/*fim - section produtos*/
+/* Responsivo */
 @media (max-width: 768px) {
+  .container-information {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 15px;
+  }
+
+  .info-item {
+    max-width: 100%;
+  }
+
+  .info-item i {
+    font-size: 2rem;
+  }
+
+  .container-produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    margin: -40px auto;
+    max-width: 1200px;
+  }
+
+  .header-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .produtos-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .produto-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .produto-info {
+    text-align: center;
+    margin: auto 5px;
+    flex: 1 1;
+  }
+
+  .produto-img {
+    width: 100%;
+    max-width: 200px;
+  }
+
   .main-content {
     padding-top: 90px;
   }
   .hero-background {
-    height: 250px;
-    background-size: 100%;
+    height: 370px;
+    background-size: 95%;
   }
 
   .hero-buttons-wrapper {
     flex-direction: column;
     align-items: center;
-    padding: 10px 15px;
+    top: -50px;
+    position: relative;
+    padding: 0px 15px;
   }
 
   .btn {
