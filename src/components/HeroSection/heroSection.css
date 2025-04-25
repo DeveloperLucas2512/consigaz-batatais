@@ -51,9 +51,15 @@
 .btn:hover {
   opacity: 0.9;
 }
+.main-content {
+  padding-top: 100px; /* compensação da altura do header */
+}
 
 /* ✅ MOBILE AJUSTES */
 @media (max-width: 768px) {
+  .main-content {
+    padding-top: 90px;
+  }
   .hero-background {
     height: 250px;
     background-size: 100%;

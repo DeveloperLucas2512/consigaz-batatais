@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import { FaSearch } from "react-icons/fa";
+import { FaWhatsapp, FaPhoneAlt } from "react-icons/fa";
 import logo from "../../assets/logo-1.png";
 
 const Header = () => {
@@ -11,9 +11,18 @@ const Header = () => {
           <img src={logo} alt="Logo Consigaz Batatais" className="logo" />
 
           <div className="header-right">
-            <span>FALE PELO WHATSAPP</span>
-            <span>0800 0100 041</span>
-            <FaSearch className="search-icon" />
+            <a
+              href="https://wa.me/5516991772772?text=Ol%C3%A1%2C+gostaria+de+fazer+um+pedido+de+g%C3%A1s+%F0%9F%9A%9B"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="header-link whatsapp"
+            >
+              <FaWhatsapp /> Fale pelo WhatsApp
+            </a>
+
+            <a href="tel:+551636620519" className="header-link">
+              <FaPhoneAlt /> Fale conosco
+            </a>
           </div>
         </div>
         <hr className="header-line" />
