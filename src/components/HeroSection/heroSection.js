@@ -26,50 +26,7 @@ const HeroSection = () => {
             <FaWhatsapp /> Compre pelo WhatsApp
           </button>
         </div>
-        <section className="container-produtos">
-          <div className="title-produtos">
-            <h1>Nossos Produtos</h1>
-            <p>
-              A Consigaz é uma das líderes em distribuição de gás em Batatais.
-            </p>
-          </div>
 
-          <div className="produtos-grid">
-            <div className="produto-card">
-              <div className="produto-info">
-                <h2>Gás 13Kg (residencial)</h2>
-                <p>
-                  O P13 é o formato mais conhecido, aquele que usamos em casa.
-                </p>
-                <button className="btn comprar">Comprar agora</button>
-              </div>
-              <img
-                src={botijao}
-                alt="Botijão de gás Consigaz"
-                className="produto-img-gas"
-              />
-            </div>
-
-            <div className="produto-card">
-              <div className="produto-info">
-                <h2>Galão de Água 20L</h2>
-                <p>
-                  Água potável das marcas Daflora e Minalice direto na sua casa.
-                </p>
-                <button className="btn comprar">Comprar agora</button>
-              </div>
-              <img
-                src={galaoAgua}
-                alt="Galão de Água 20L"
-                className="produto-img-agua"
-              />
-            </div>
-          </div>
-
-          <button className="btn whatsapp">
-            <FaWhatsapp /> Fale Conosco
-          </button>
-        </section>
         <div className="container-information">
           <div className="info-item">
             <FaMobileAlt className="info-icon" />
@@ -92,39 +49,47 @@ const HeroSection = () => {
             <p>O gás mais seguro e confiável está aqui.</p>
           </div>
         </div>
-        <section className="container-localizacao">
-          <h2 className="title-localizacao">Onde estamos?</h2>
 
+        {/* conteiner rota */}
+        <section className="container-localizacao">
           <div className="bloco-localizacao-e-video">
-            <div className="imagem-com-botao">
-              <img
-                src={imagemLocal}
-                alt="Depósito Consigaz Batatais"
-                className="imagem-local"
-              />
-              <a
-                href="https://www.google.com/maps/dir//Av.+Jos%C3%A9+Basilio+Zanetti,+310+-+Jardim+canad%C3%A1,+Batatais+-+SP,+14302-548/@-20.8712214,-47.5812346,17z"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-rota-sobre-imagem"
-              >
-                📍 Ver rota no Google Maps
-              </a>
+            <div className="bloco-localizacao">
+              <h2 className="title-localizacao">Onde estamos?</h2>
+              <div className="imagem-com-botao">
+                <img
+                  src={imagemLocal}
+                  alt="Depósito Consigaz Batatais"
+                  className="imagem-local"
+                />
+                <a
+                  href="https://www.google.com/maps/dir//Av.+Jos%C3%A9+Basilio+Zanetti,+310+-+Jardim+canad%C3%A1,+Batatais+-+SP,+14302-548/@-20.8712214,-47.5812346,17z"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-rota-sobre-imagem"
+                >
+                  📍 Ver rota no Google Maps
+                </a>
+              </div>
             </div>
-            <div className="container-instalacao-gas">
-              <img
-                src={imagemVideo}
-                alt="Como instalar o botijão de gás"
-                className="imagem-video"
-              />
-              <a
-                href="https://www.youtube.com/watch?v=z-zuqzzRrQo"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-video-sobre-imagem"
-              >
-                ▶ Assistir: Como instalar corretamente o botijão de gás em casa
-              </a>
+
+            <div className="bloco-video">
+              <h2 className="title-video">Você Sabia?</h2>
+              <div className="imagem-com-botao">
+                <img
+                  src={imagemVideo}
+                  alt="Como instalar o botijão de gás"
+                  className="imagem-video"
+                />
+                <a
+                  href="https://www.youtube.com/watch?v=z-zuqzzRrQo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-video-sobre-imagem"
+                >
+                  ▶ Assistir: Como instalar corretamente o botijão de gás em
+                  casa
+                </a>
+              </div>
             </div>
           </div>
         </section>
