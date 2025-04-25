@@ -4,18 +4,18 @@ import { FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
-    <section className="hero-background">
-      <div className="hero-content">
-        <div className="hero-buttons">
-          <button className="btn phone">
-            <FaPhoneAlt /> Compre agora pelo telefone
-          </button>
-          <button className="btn whatsapp">
-            <FaWhatsapp /> Compre pelo WhatsApp
-          </button>
-        </div>
+    <div className="hero-wrapper">
+      <section className="hero-background"></section>
+
+      <div className="hero-buttons-wrapper">
+        <button className="btn phone">
+          <FaPhoneAlt /> Compre agora pelo telefone
+        </button>
+        <button className="btn whatsapp">
+          <FaWhatsapp /> Compre pelo WhatsApp
+        </button>
       </div>
-    </section>
+    </div>
   );
 };
 
