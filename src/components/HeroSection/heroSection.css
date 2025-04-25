@@ -1,0 +1,66 @@
+.hero-background {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-image: url("../../assets/image-header.png");
+  background-size: cover;
+  background-position: right center; /* foco na mulher */
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.hero-content {
+  color: white;
+  max-width: 600px;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.4); /* leve sombra pra contraste */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  color: #ff6400;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 20px;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn.phone {
+  background-color: #ff6400;
+  color: white;
+}
+
+.btn.whatsapp {
+  background-color: #25d366;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}

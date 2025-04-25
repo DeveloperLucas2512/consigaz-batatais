@@ -47,3 +47,18 @@
   background-color: rgb(16, 68, 238); /* azul padrão */
   margin-top: 10px;
 }
+
+.header-banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+.header-img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  object-fit: contain;
+}
