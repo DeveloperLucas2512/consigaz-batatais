@@ -3,6 +3,8 @@ import "./heroSection.css";
 import { FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 import botijao from "../../assets/botijao-consigaz-original.png";
 import galaoAgua from "../../assets/galao-agua.png";
+import imagemLocal from "../../assets/vista-localizacao.png";
+import imagemVideo from "../../assets/image-instalacao-gas.png";
 import {
   FaMobileAlt,
   FaThumbsUp,
@@ -52,7 +54,7 @@ const HeroSection = () => {
               <div className="produto-info">
                 <h2>Galão de Água 20L</h2>
                 <p>
-                  Água potável das marcas daFlora e Minalice direto na sua casa.
+                  Água potável das marcas Daflora e Minalice direto na sua casa.
                 </p>
                 <button className="btn comprar">Comprar agora</button>
               </div>
@@ -90,6 +92,42 @@ const HeroSection = () => {
             <p>O gás mais seguro e confiável está aqui.</p>
           </div>
         </div>
+        <section className="container-localizacao">
+          <h2 className="title-localizacao">Onde estamos?</h2>
+
+          <div className="bloco-localizacao-e-video">
+            <div className="imagem-com-botao">
+              <img
+                src={imagemLocal}
+                alt="Depósito Consigaz Batatais"
+                className="imagem-local"
+              />
+              <a
+                href="https://www.google.com/maps/dir//Av.+Jos%C3%A9+Basilio+Zanetti,+310+-+Jardim+canad%C3%A1,+Batatais+-+SP,+14302-548/@-20.8712214,-47.5812346,17z"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-rota-sobre-imagem"
+              >
+                📍 Ver rota no Google Maps
+              </a>
+            </div>
+            <div className="container-instalacao-gas">
+              <img
+                src={imagemVideo}
+                alt="Como instalar o botijão de gás"
+                className="imagem-video"
+              />
+              <a
+                href="https://www.youtube.com/watch?v=z-zuqzzRrQo"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-video-sobre-imagem"
+              >
+                ▶ Assistir: Como instalar corretamente o botijão de gás em casa
+              </a>
+            </div>
+          </div>
+        </section>
       </div>
     </main>
   );
