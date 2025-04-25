@@ -2,7 +2,6 @@ import React from "react";
 import "./header.css";
 import { FaSearch } from "react-icons/fa";
 import logo from "../../assets/logo-1.png";
-import headerImage from "../../assets/image-header.png"; // <-- Aqui
 
 const Header = () => {
   return (
