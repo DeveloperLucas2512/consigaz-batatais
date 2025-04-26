@@ -7,35 +7,15 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        {/* Redes Sociais */}
-        <div className="footer-social">
-          <h3>Fale Conosco:</h3>
-          <div className="social-icons">
-            <a
-              href="https://wa.me/seunumero"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaWhatsapp style={{ fontSize: "35px", color: "#25D366" }} />
-            </a>
-            <a
-              href="https://facebook.com/seupagina"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaFacebookF style={{ fontSize: "35px", color: "#1877F2" }} />
-            </a>
-            <a
-              href="https://instagram.com/seuinstagram"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaInstagram style={{ fontSize: "35px", color: "#C13584" }} />
-            </a>
-            <a href="tel:+551636620519" className="header-link phone">
-              <FaPhone style={{ fontSize: "35px", color: "#000" }} />
-            </a>
-          </div>
+        {/* Quem Somos */}
+        <div className="footer-about">
+          <h3>Quem Somos</h3>
+          <h4 className="footer-subtitle">REVENDA AUTORIZADA CONSIGAZ</h4>
+          <p className="footer-description">
+            O CNPJ da empresa DANILO ARANTES COMERCIO DE GAS LTDA - ME (CONSIGAZ
+            CANADA - BATATAIS) é 54.426.828/0001-35. Com sede em BATATAIS, SP,
+            possui 3 anos, 1 mês e 5 dias e foi fundada em 21/03/2022.
+          </p>
         </div>
 
         {/* Horário de funcionamento */}
@@ -66,9 +46,42 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Nova Coluna: Imagem de Informação */}
+        {/* Imagem de Informação */}
         <div className="footer-info-image">
           <img src={informacaoImage} alt="Informações sobre Consigaz" />
+        </div>
+      </div>
+
+      {/* Redes Sociais */}
+      <div className="content-social">
+        <div className="footer-social">
+          <h3>Fale Conosco:</h3>
+          <div className="social-icons">
+            <a
+              href="https://wa.me/seunumero"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaWhatsapp style={{ fontSize: "35px", color: "#25D366" }} />
+            </a>
+            <a
+              href="https://facebook.com/seupagina"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFacebookF style={{ fontSize: "35px", color: "#1877F2" }} />
+            </a>
+            <a
+              href="https://instagram.com/seuinstagram"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram style={{ fontSize: "35px", color: "#C13584" }} />
+            </a>
+            <a href="tel:+551636620519" className="header-link phone">
+              <FaPhone style={{ fontSize: "35px", color: "#000" }} />
+            </a>
+          </div>
         </div>
       </div>
 

@@ -4,7 +4,6 @@ import { FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 import botijao from "../../assets/botijao-consigaz-original.png";
 import galaoAgua from "../../assets/galao-agua.png";
 import imagemLocal from "../../assets/localizacao-deposito.jpeg";
-import imagemVideo from "../../assets/image-instalacao-gas.png";
 import {
   FaMobileAlt,
   FaThumbsUp,
@@ -98,6 +97,7 @@ const HeroSection = () => {
           <div className="bloco-localizacao-e-video">
             <div className="bloco-localizacao">
               <h2 className="title-localizacao">Onde estamos?</h2>
+
               <div className="imagem-com-botao">
                 <a
                   href="https://www.google.com/maps/dir//Av.+Jos%C3%A9+Basilio+Zanetti,+310+-+Jardim+canad%C3%A1,+Batatais+-+SP,+14302-548/@-20.8712214,-47.5812346,17z"
@@ -110,6 +110,7 @@ const HeroSection = () => {
                     alt="Depósito Consigaz Batatais"
                     className="imagem-local"
                   />
+
                   <div className="btn-rota-sobre-imagem">
                     📍 Ver rota no Google Maps
                   </div>

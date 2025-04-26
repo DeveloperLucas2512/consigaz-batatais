@@ -6,8 +6,8 @@
 .hero-background {
   position: relative;
   width: 100%;
-  height: 600px;
-  background-image: url("../../assets/image-heroSection.png");
+  height: 1100px;
+  background-image: url("../../assets/novo-logo-personalizado.png");
   background-size: 100%;
   background-position: center center;
   background-repeat: no-repeat;
@@ -54,6 +54,7 @@
 }
 .main-content {
   padding-top: 100px; /* compensação da altura do header */
+  margin-bottom: 30px;
 }
 
 /*inicio - section produtos*/
@@ -361,6 +362,7 @@
 
   .main-content {
     padding-top: 90px;
+    margin-bottom: 30px;
   }
 
   .hero-background {
@@ -371,7 +373,7 @@
   .hero-buttons-wrapper {
     flex-direction: column;
     align-items: center;
-    top: -50px;
+    top: auto;
     position: relative;
     padding: 0px 15px;
   }
