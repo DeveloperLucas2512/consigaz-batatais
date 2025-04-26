@@ -287,17 +287,13 @@
 }
 
 .btn-video {
-  background-color: #ff6400;
+  background-color: rgb(16, 68, 238);
   color: white;
   padding: 12px 20px;
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
   transition: background 0.3s ease;
-}
-
-.btn-video:hover {
-  background-color: #cc5200;
 }
 
 .btn-rota {
@@ -334,17 +330,13 @@
 
 .btn-video {
   display: inline-block;
-  background-color: #ff6400;
+  background-color: rgb(16, 68, 238);
   color: white;
   padding: 12px 24px;
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
   transition: background 0.3s ease;
-}
-
-.btn-video:hover {
-  background-color: #cc5200;
 }
 
 .btn-video-sobre-imagem {
@@ -355,7 +347,7 @@
   bottom: 0;
   margin: 10px 40px;
   padding: 10px 18px;
-  background-color: #ff6400;
+  background-color: rgb(16, 68, 238);
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -365,7 +357,7 @@
 }
 
 .btn-video-sobre-imagem:hover {
-  background-color: #cc5200;
+  background-color: rgb(16, 68, 238);
 }
 
 .bloco-localizacao-e-video {
@@ -389,10 +381,10 @@
 .title-video {
   font-size: 2rem;
   color: rgb(16, 68, 238);
-  margin-bottom: 10px;
+  margin-bottom: -20px;
   font-weight: bold;
   text-align: left;
-  width: 100%;
+  width: auto;
 }
 
 .imagem-com-botao img {
@@ -532,5 +524,22 @@
   .btn-rota-sobre-imagem {
     font-size: 0.85rem;
     padding: 10px 14px;
+  }
+
+  .btn-video-sobre-imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    margin: 10px 40px;
+    padding: 10px 18px;
+    background-color: rgb(16, 68, 238);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    transition: background 0.3s ease;
   }
 }
