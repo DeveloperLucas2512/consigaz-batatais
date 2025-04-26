@@ -3,7 +3,7 @@ import "./heroSection.css";
 import { FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 import botijao from "../../assets/botijao-consigaz-original.png";
 import galaoAgua from "../../assets/galao-agua.png";
-import imagemLocal from "../../assets/vista-localizacao.png";
+import imagemLocal from "../../assets/localizacao-deposito.jpeg";
 import imagemVideo from "../../assets/image-instalacao-gas.png";
 import {
   FaMobileAlt,
@@ -112,28 +112,6 @@ const HeroSection = () => {
                   />
                   <div className="btn-rota-sobre-imagem">
                     📍 Ver rota no Google Maps
-                  </div>
-                </a>
-              </div>
-            </div>
-
-            <div className="bloco-video">
-              <h2 className="title-video">Você Sabia?</h2>
-              <div className="imagem-com-botao">
-                <a
-                  href="https://www.youtube.com/watch?v=z-zuqzzRrQo"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="imagem-com-botao"
-                >
-                  <img
-                    src={imagemVideo}
-                    alt="Como instalar o botijão de gás"
-                    className="imagem-video"
-                  />
-                  <div className="btn-video-sobre-imagem">
-                    ▶ Assistir: Como instalar corretamente o botijão de gás em
-                    casa
                   </div>
                 </a>
               </div>

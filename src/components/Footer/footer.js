@@ -1,103 +1,84 @@
 import React from "react";
 import { FaWhatsapp, FaFacebookF, FaInstagram, FaPhone } from "react-icons/fa";
 import "./footer.css";
+import informacaoImage from "../../assets/image-information.jpeg"; // Importa a imagem
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
+        {/* Redes Sociais */}
         <div className="footer-social">
-          <h3>Fale Conosco:</h3> {/* Título mais amigável */}
+          <h3>Fale Conosco:</h3>
           <div className="social-icons">
             <a
               href="https://wa.me/seunumero"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaWhatsapp
-                style={{
-                  marginRight: "2px",
-                  fontSize: "35px",
-                  color: "#25D366", // Verde WhatsApp
-                }}
-              />
+              <FaWhatsapp style={{ fontSize: "35px", color: "#25D366" }} />
             </a>
             <a
               href="https://facebook.com/seupagina"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaFacebookF
-                style={{
-                  marginRight: "2px",
-                  fontSize: "35px",
-                  color: "#1877F2", // Azul Facebook
-                }}
-              />
+              <FaFacebookF style={{ fontSize: "35px", color: "#1877F2" }} />
             </a>
             <a
               href="https://instagram.com/seuinstagram"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaInstagram
-                style={{
-                  marginRight: "2px",
-                  fontSize: "35px",
-                  color: "#C13584", // Rosa Instagram
-                }}
-              />
+              <FaInstagram style={{ fontSize: "35px", color: "#C13584" }} />
             </a>
-            <a
-              href="tel:+551636620519" // Agora o telefone é direto aqui
-              className="header-link phone"
-            >
-              <FaPhone
-                style={{
-                  marginRight: "2px",
-                  fontSize: "35px",
-                  color: "#000", // Preto telefone
-                }}
-              />
+            <a href="tel:+551636620519" className="header-link phone">
+              <FaPhone style={{ fontSize: "35px", color: "#000" }} />
             </a>
           </div>
         </div>
 
+        {/* Horário de funcionamento */}
         <div className="footer-hours">
           <h3>Horário de Funcionamento</h3>
           <ul>
             <li>
-              Segunda-feira: <span>08:00 às 20:30</span>
+              Segunda-feira: <span>08:00 às 21:00</span>
             </li>
             <li>
-              Terça-feira: <span>08:00 às 20:30</span>
+              Terça-feira: <span>08:00 às 21:00</span>
             </li>
             <li>
-              Quarta-feira: <span>08:00 às 20:30</span>
+              Quarta-feira: <span>08:00 às 21:00</span>
             </li>
             <li>
-              Quinta-feira: <span>08:00 às 20:30</span>
+              Quinta-feira: <span>08:00 às 21:00</span>
             </li>
             <li>
-              Sexta-feira: <span>08:00 às 20:30</span>
+              Sexta-feira: <span>08:00 às 21:00</span>
             </li>
             <li>
-              Sábado: <span>08:00 às 20:30</span>
+              Sábado: <span>08:00 às 20:00</span>
             </li>
             <li>
-              Domingo: <span>08:00 às 12:30</span>
+              Domingo: <span>08:00 às 20:00</span>
             </li>
           </ul>
         </div>
+
+        {/* Nova Coluna: Imagem de Informação */}
+        <div className="footer-info-image">
+          <img src={informacaoImage} alt="Informações sobre Consigaz" />
+        </div>
       </div>
 
+      {/* Rodapé Final */}
       <div className="footer-bottom">
         <p className="footer-copy">
           <strong>
             © 2025 Consigaz Batatais - Todos os direitos reservados.
           </strong>
         </p>
-
         <div className="footer-dev">
           <a
             href="https://wa.me/5516993102055?text=Ol%C3%A1%20seja%20bem-vindo%20a%20WebSites,%20Usando%20a%20Tecnologia%20a%20seu%20favor!%20Gostaria%20de%20agendar%20uma%20reuni%C3%A3o,%20hor%C3%A1rio%20dispon%C3%ADvel?"
@@ -105,9 +86,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="footer-dev-link"
           >
-            <FaWhatsapp
-              style={{ marginRight: "8px", fontSize: "22px", color: "#25D366" }}
-            />
+            <FaWhatsapp style={{ fontSize: "22px", color: "#25D366" }} />
             Desenvolvido por: <strong>LD WebSites</strong>
           </a>
         </div>
