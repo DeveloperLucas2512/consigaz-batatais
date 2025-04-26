@@ -42,6 +42,7 @@
 }
 
 .footer-hours {
+  text-align: justify;
   flex: 1;
   text-align: left;
 }
@@ -58,8 +59,15 @@
 }
 
 .footer-hours li {
+  font-weight: bold;
   margin-bottom: 8px;
   font-size: 1.1rem;
+}
+
+.footer-hours li span {
+  color: red;
+  font-weight: bold;
+  font-size: 1.15rem;
 }
 
 .footer-bottom {
@@ -110,13 +118,10 @@
   .footer-copy,
   .footer-dev {
     flex: none;
-    width: 100%;
+    width: auto;
     margin: 5px 0;
   }
-}
 
-/* Responsivo */
-@media (max-width: 768px) {
   .footer-content {
     flex-direction: column;
     align-items: center;

@@ -1,5 +1,5 @@
 import React from "react";
-import { FaWhatsapp, FaFacebookF, FaInstagram } from "react-icons/fa";
+import { FaWhatsapp, FaFacebookF, FaInstagram, FaPhone } from "react-icons/fa";
 import "./footer.css";
 
 const Footer = () => {
@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-social">
-          <h3>Nos acompanhe:</h3>
+          <h3>Fale Conosco:</h3> {/* Título mais amigável */}
           <div className="social-icons">
             <a
               href="https://wa.me/seunumero"
@@ -18,7 +18,7 @@ const Footer = () => {
                 style={{
                   marginRight: "2px",
                   fontSize: "35px",
-                  color: "#25D366", // WhatsApp verde oficial
+                  color: "#25D366", // Verde WhatsApp
                 }}
               />
             </a>
@@ -31,7 +31,7 @@ const Footer = () => {
                 style={{
                   marginRight: "2px",
                   fontSize: "35px",
-                  color: "#1877F2", // Facebook azul oficial
+                  color: "#1877F2", // Azul Facebook
                 }}
               />
             </a>
@@ -44,7 +44,19 @@ const Footer = () => {
                 style={{
                   marginRight: "2px",
                   fontSize: "35px",
-                  color: "#C13584", // Instagram rosa principal
+                  color: "#C13584", // Rosa Instagram
+                }}
+              />
+            </a>
+            <a
+              href="tel:+551636620519" // Agora o telefone é direto aqui
+              className="header-link phone"
+            >
+              <FaPhone
+                style={{
+                  marginRight: "2px",
+                  fontSize: "35px",
+                  color: "#000", // Preto telefone
                 }}
               />
             </a>
@@ -54,13 +66,27 @@ const Footer = () => {
         <div className="footer-hours">
           <h3>Horário de Funcionamento</h3>
           <ul>
-            <li>Segunda-feira: 08:00 às 20:30</li>
-            <li>Terça-feira: 08:00 às 20:30</li>
-            <li>Quarta-feira: 08:00 às 20:30</li>
-            <li>Quinta-feira: 08:00 às 20:30</li>
-            <li>Sexta-feira: 08:00 às 20:30</li>
-            <li>Sábado: 08:00 às 20:30</li>
-            <li>Domingo: 08:00 às 12:30</li>
+            <li>
+              Segunda-feira: <span>08:00 às 20:30</span>
+            </li>
+            <li>
+              Terça-feira: <span>08:00 às 20:30</span>
+            </li>
+            <li>
+              Quarta-feira: <span>08:00 às 20:30</span>
+            </li>
+            <li>
+              Quinta-feira: <span>08:00 às 20:30</span>
+            </li>
+            <li>
+              Sexta-feira: <span>08:00 às 20:30</span>
+            </li>
+            <li>
+              Sábado: <span>08:00 às 20:30</span>
+            </li>
+            <li>
+              Domingo: <span>08:00 às 12:30</span>
+            </li>
           </ul>
         </div>
       </div>
@@ -80,7 +106,7 @@ const Footer = () => {
             className="footer-dev-link"
           >
             <FaWhatsapp
-              style={{ marginRight: "2px", fontSize: "25px", color: "#25D366" }}
+              style={{ marginRight: "8px", fontSize: "22px", color: "#25D366" }}
             />
             Desenvolvido por: <strong>LD WebSites</strong>
           </a>
