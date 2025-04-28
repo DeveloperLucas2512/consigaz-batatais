@@ -12,7 +12,7 @@ import {
 
 import botijao from "../../assets/botijao-consigaz-original.png";
 import galaoAgua from "../../assets/galao-agua.png";
-import imagemLocal from "../../assets/localizacao-deposito.png";
+import imagemLocal from "../../assets/deposito-consigaz.png";
 
 const HeroSection = () => {
   const [produtoSelecionado, setProdutoSelecionado] = useState(null);
@@ -147,6 +147,32 @@ const HeroSection = () => {
             <p>O gás mais seguro e confiável está aqui.</p>
           </div>
         </div>
+
+        <section className="container-localizacao">
+          <div className="bloco-localizacao-e-video">
+            <div className="bloco-localizacao">
+              <h2 className="title-localizacao">Onde estamos?</h2>
+
+              <div className="imagem-com-botao">
+                <a
+                  href="https://www.google.com/maps/dir//Av.+Jos%C3%A9+Basilio+Zanetti,+310+-+Jardim+Canad%C3%A1,+Batatais+-+SP/@-20.8712214,-47.5812346,17z"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="imagem-com-botao"
+                >
+                  <img
+                    src={imagemLocal}
+                    alt="Depósito Consigaz Batatais"
+                    className="imagem-local"
+                  />
+                  <div className="btn-rota-sobre-imagem">
+                    📍 Ver rota no Google Maps
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </main>
   );

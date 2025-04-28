@@ -461,4 +461,22 @@
     font-size: 0.85rem;
     padding: 10px 14px;
   }
+
+  .opcoes-compra {
+    margin: auto 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .imagem-com-botao {
+    white-space: nowrap;
+    position: relative;
+    width: calc(105% - 15px);
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
 }
