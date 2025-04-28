@@ -1,6 +1,15 @@
 import React, { useState } from "react";
 import "./heroSection.css";
-import { FaPhoneAlt, FaWhatsapp, FaChevronDown } from "react-icons/fa"; // 👈 adicionamos o ícone da seta
+import {
+  FaPhoneAlt,
+  FaWhatsapp,
+  FaChevronDown,
+  FaMobileAlt,
+  FaThumbsUp,
+  FaRocket,
+  FaCheckSquare,
+} from "react-icons/fa"; // 👈 Agora importando todos os ícones necessários!
+
 import botijao from "../../assets/botijao-consigaz-original.png";
 import galaoAgua from "../../assets/galao-agua.png";
 import imagemLocal from "../../assets/localizacao-deposito.png";
@@ -15,7 +24,6 @@ const HeroSection = () => {
   return (
     <main className="main-content">
       <div className="hero-wrapper">
-        {/* Seções de fundo e botões de topo */}
         <section className="hero-background"></section>
 
         {/* Produtos */}
@@ -115,6 +123,30 @@ const HeroSection = () => {
             <FaWhatsapp /> Fale Conosco
           </a>
         </section>
+
+        {/* Bloco de informações */}
+        <div className="container-information">
+          <div className="info-item">
+            <FaMobileAlt className="info-icon" />
+            <h3>Peça Online</h3>
+            <p>Tenha um atendimento rápido e seguro pelo WhatsApp!</p>
+          </div>
+          <div className="info-item">
+            <FaThumbsUp className="info-icon" />
+            <h3>Atendimento</h3>
+            <p>Prezamos a excelência em nosso atendimento.</p>
+          </div>
+          <div className="info-item">
+            <FaRocket className="info-icon" />
+            <h3>Entrega Rápida</h3>
+            <p>Com a Consigaz chegará até você bem rapidinho.</p>
+          </div>
+          <div className="info-item">
+            <FaCheckSquare className="info-icon" />
+            <h3>Distribuidor Autorizado</h3>
+            <p>O gás mais seguro e confiável está aqui.</p>
+          </div>
+        </div>
       </div>
     </main>
   );
