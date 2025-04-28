@@ -58,21 +58,21 @@ const Footer = () => {
           <h3>Fale Conosco:</h3>
           <div className="social-icons">
             <a
-              href="https://wa.me/seunumero"
+              href="https://wa.me/5516991772772"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaWhatsapp style={{ fontSize: "35px", color: "#25D366" }} />
             </a>
             <a
-              href="https://facebook.com/seupagina"
+              href="https://www.facebook.com/share/1RNMPNQqtm/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaFacebookF style={{ fontSize: "35px", color: "#1877F2" }} />
             </a>
             <a
-              href="https://instagram.com/seuinstagram"
+              href="https://www.instagram.com/batataisconsigaz?igsh=MWllb21neWVxY2M5Yw=="
               target="_blank"
               rel="noopener noreferrer"
             >
