@@ -58,7 +58,7 @@ const Footer = () => {
           <h3>Fale Conosco:</h3>
           <div className="social-icons">
             <a
-              href="https://wa.me/5516991772772"
+              href="https://wa.me/5516991772772?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido"
               target="_blank"
               rel="noopener noreferrer"
             >

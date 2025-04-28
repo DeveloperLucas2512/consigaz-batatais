@@ -54,7 +54,7 @@ const HeroSection = () => {
                 {produtoSelecionado === "gas" && (
                   <div className="opcoes-compra">
                     <a
-                      href="https://wa.me/5516991772772?text=Ol%C3%A1,%20gostaria%20de%20comprar%20Gás%2013Kg!"
+                      href="https://wa.me/5516991772772?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn option-whatsapp"
@@ -92,7 +92,7 @@ const HeroSection = () => {
                 {produtoSelecionado === "agua" && (
                   <div className="opcoes-compra">
                     <a
-                      href="https://wa.me/5516991772772?text=Ol%C3%A1,%20gostaria%20de%20comprar%20Gal%C3%A3o%20de%20%C3%81gua%2020L!"
+                      href="https://wa.me/5516991772772?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn option-whatsapp"
@@ -115,7 +115,7 @@ const HeroSection = () => {
 
           {/* Botão geral de WhatsApp */}
           <a
-            href="https://wa.me/5516991772772"
+            href="https://wa.me/5516991772772?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido"
             target="_blank"
             rel="noopener noreferrer"
             className="btn whatsapp fale-conosco"

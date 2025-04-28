@@ -13,7 +13,7 @@ const Header = () => {
 
           <div className="header-right">
             <a
-              href="https://wa.me/5516991772772?text=Ol%C3%A1%2C+gostaria+de+fazer+um+pedido+de+g%C3%A1s+%F0%9F%9A%9B"
+              href="https://wa.me/5516991772772?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido"
               target="_blank"
               rel="noopener noreferrer"
               className="header-link whatsapp"
