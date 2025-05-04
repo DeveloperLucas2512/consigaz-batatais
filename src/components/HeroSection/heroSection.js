@@ -13,6 +13,8 @@ import {
 import botijao from "../../assets/botijao-consigaz-original.png";
 import galaoAgua from "../../assets/galao-agua.png";
 import imagemLocal from "../../assets/deposito-consigaz.png";
+import cilindroP20 from "../../assets/cilindroP20.png";
+import cilindroP45 from "../../assets/cilindroP45.png";
 
 const HeroSection = () => {
   const [produtoSelecionado, setProdutoSelecionado] = useState(null);
@@ -108,6 +110,100 @@ const HeroSection = () => {
               <img
                 src={galaoAgua}
                 alt="Galão de Água 20L"
+                className="produto-img-agua"
+              />
+            </div>
+          </div>
+
+          <div className="produtos-grid">
+            {/* Produto 1 */}
+            <div className="produto-card">
+              <div className="produto-info">
+                <h2>Cilibdro P20</h2>
+                <p>
+                  O cilindro de 20 quilos é utilizado em empilhadeiras com motor
+                  à combustão ciclo Otto ou quatro tempos, única aplicação do
+                  gás GLP como combustível para veículos automotores autorizada
+                  pela ANP. Nas empilhadeiras, o gás GLP é conduzido na fase
+                  líquida até o motor, onde é pulverizado e misturado ao ar para
+                  explosão na câmara de combustão. Por conta disso, o cilindro é
+                  instalado e utilizado na posição horizontal.
+                </p>
+
+                <button
+                  className="btn comprar"
+                  onClick={() => toggleProduto("gas")}
+                >
+                  Comprar agora <FaChevronDown />
+                </button>
+
+                {produtoSelecionado === "gas" && (
+                  <div className="opcoes-compra">
+                    <a
+                      href="https://wa.me/5516991772772?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn option-whatsapp"
+                    >
+                      <FaWhatsapp /> Compre pelo WhatsApp
+                    </a>
+                    <a href="tel:+551636620519" className="btn option-phone">
+                      <FaPhoneAlt /> Compre pelo Telefone
+                    </a>
+                  </div>
+                )}
+              </div>
+              <img
+                src={cilindroP20}
+                alt="Cilindro P20"
+                className="produto-img-gas"
+              />
+            </div>
+
+            {/* Produto 2 */}
+            <div className="produto-card">
+              <div className="produto-info">
+                <h2>Cilindro P45</h2>
+                <p>
+                  O cilindro de 45 quilos é a opção ideal para residências que,
+                  além da preparação de alimentos, utilizam o gás GLP para
+                  aquecimento de água. Também é utilizado em bares,
+                  restaurantes, lavanderias, hospitais, farmácias, pequenos
+                  comércios e indústrias, em uma grande variedade de aplicações,
+                  como aquecimento de fornos, secadoras e lavadoras de roupas,
+                  estufas, corte de chapas metálicas, esterilização de objetos,
+                  cocção dos alimentos e muito mais. A instalação é realizada em
+                  locais pré-determinados pelo consumidor as centrais de
+                  abastecimento que devem seguir normas e orientações técnicas
+                  legais.
+                </p>
+
+                <button
+                  className="btn comprar"
+                  onClick={() => toggleProduto("agua")}
+                >
+                  Comprar agora <FaChevronDown />
+                </button>
+
+                {produtoSelecionado === "agua" && (
+                  <div className="opcoes-compra">
+                    <a
+                      href="https://wa.me/5516991772772?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn option-whatsapp"
+                    >
+                      <FaWhatsapp /> Compre pelo WhatsApp
+                    </a>
+                    <a href="tel:+551636620519" className="btn option-phone">
+                      <FaPhoneAlt /> Compre pelo Telefone
+                    </a>
+                  </div>
+                )}
+              </div>
+              <img
+                src={cilindroP45}
+                alt="Cilindro P45"
                 className="produto-img-agua"
               />
             </div>
