@@ -119,7 +119,7 @@ const HeroSection = () => {
             {/* Produto 1 */}
             <div className="produto-card">
               <div className="produto-info">
-                <h2>Cilibdro P20</h2>
+                <h2>Cilindro P20</h2>
                 <p>
                   O cilindro de 20 quilos é utilizado em empilhadeiras com motor
                   à combustão ciclo Otto ou quatro tempos, única aplicação do
