@@ -12,7 +12,7 @@ import {
 
 import botijao from "../../assets/botijao-consigaz-original.png";
 import galaoAgua from "../../assets/galao-agua.png";
-import imagemLocal from "../../assets/deposito-consigaz.png";
+import imagemLocal from "../../assets/deposito-consigaz-localizacao.png";
 import cilindroP20 from "../../assets/cilindroP20.png";
 import cilindroP45 from "../../assets/cilindroP45.png";
 
