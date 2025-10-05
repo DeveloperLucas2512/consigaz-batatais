@@ -211,22 +211,39 @@
   opacity: 0.9;
 }
 
+.bloco-localizacao {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .container-localizacao {
-  padding: 60px 20px;
   text-align: center;
   background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-instrucao {
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  white-space: nowrap;
+  background-color: rgb(16, 68, 238);
+  color: white;
 }
 
 .title-localizacao {
   font-size: 2.5rem;
-  color: rgb(16, 68, 238);
   margin-bottom: 40px;
   font-weight: bold;
 }
 
 .imagem-com-botao {
   position: relative;
-  width: calc(100% - 20px);
+  width: calc(100% - 100px);
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
@@ -294,12 +311,6 @@
 
 .imagem-com-botao:hover {
   transform: scale(1.02);
-}
-
-.imagem-com-botao img {
-  min-height: 465px;
-  height: 100%;
-  object-fit: cover;
 }
 
 .opcoes-compra {
@@ -478,5 +489,10 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+  }
+
+  .imagem-com-botao img {
+    height: 100%;
+    object-fit: cover;
   }
 }

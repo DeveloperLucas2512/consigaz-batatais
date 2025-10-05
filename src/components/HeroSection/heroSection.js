@@ -12,7 +12,7 @@ import {
 
 import botijao from "../../assets/botijao-consigaz-original.png";
 import galaoAgua from "../../assets/galao-agua.png";
-import imagemLocal from "../../assets/deposito-consigaz-localizacao.png";
+import imagemLocal from "../../assets/deposito-consigaz.png";
 import cilindroP20 from "../../assets/cilindroP20.png";
 import cilindroP45 from "../../assets/cilindroP45.png";
 
@@ -247,7 +247,7 @@ const HeroSection = () => {
         <section className="container-localizacao">
           <div className="bloco-localizacao-e-video">
             <div className="bloco-localizacao">
-              <h2 className="title-localizacao">Onde estamos?</h2>
+              <h2 className="title-localizacao btn-instrucao">Como chegar?</h2>
 
               <div className="imagem-com-botao">
                 <a
@@ -265,6 +265,9 @@ const HeroSection = () => {
                     📍 Ver rota no Google Maps
                   </div>
                 </a>
+                <br />
+                <br />
+                <br />
               </div>
             </div>
           </div>
