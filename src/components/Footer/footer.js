@@ -23,19 +23,19 @@ const Footer = () => {
           <h3>Horário de Funcionamento</h3>
           <ul>
             <li>
-              Segunda-feira: <span>08:00 às 21:00</span>
+              Segunda-feira: <span>08:00 às 20:30</span>
             </li>
             <li>
-              Terça-feira: <span>08:00 às 21:00</span>
+              Terça-feira: <span>08:00 às 20:30</span>
             </li>
             <li>
-              Quarta-feira: <span>08:00 às 21:00</span>
+              Quarta-feira: <span>08:00 às 20:30</span>
             </li>
             <li>
-              Quinta-feira: <span>08:00 às 21:00</span>
+              Quinta-feira: <span>08:00 às 20:30</span>
             </li>
             <li>
-              Sexta-feira: <span>08:00 às 21:00</span>
+              Sexta-feira: <span>08:00 às 20:30</span>
             </li>
             <li>
               Sábado: <span>08:00 às 20:00</span>
